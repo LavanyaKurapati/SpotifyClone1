@@ -1,0 +1,89 @@
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.music-container {
+    background-color: #181818;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.music-heading {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    padding: 0;
+    padding: 10px 60px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.list-item {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+}
+
+.sub-container {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.song-name {
+    font-size: 18px;
+}
+
+.artist {
+    font-size: 14px;
+}
+
+.text {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.music-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.songName {
+    position: absolute;
+    left: 10vw;
+}
+
+.icons {
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+#progressBar {
+    width: 80vw;
+    cursor: pointer;
+}

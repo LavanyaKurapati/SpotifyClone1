@@ -1,0 +1,44 @@
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.home-container {
+    height: 100vh;
+    background-color: #181818;
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.home-heading {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.list-item {
+    margin: 10px;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
